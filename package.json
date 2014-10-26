@@ -1,0 +1,18 @@
+{
+  "name": "nodemailer-express",
+  "version": "0.0.1",
+  "description": "Example script for using Nodemailer with a POST request using Express",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.9.1",
+    "express": "^4.10.0",
+    "nodemailer": "^1.3.0",
+    "nodemailer-smtp-transport": "^0.1.13",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dennis Martinez",
+  "license": "ISC"
+}
