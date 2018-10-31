@@ -24,6 +24,10 @@ app.all('*', function(req, res, next) {
   next();
 });
 
+app.get('/ping', function(req, res) {
+  res.sendStatus(200);
+});
+
 app.post('/contact', function(req, res) {
   // Simple field validations.
   if (validator.toString(req.body.name) == "") {
